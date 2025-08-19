@@ -1,7 +1,49 @@
-
-#menu{
-    position: fixed;
-    top: 0%;
-    background-color: #6286fd;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nata Sans", sans-serif;
     
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    color: rgb(167, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 32px;
+    z-index: 1000;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.scrolled {
+    background: #eb5008;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav .logo {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+nav ul li a {
+    color: rgb(32, 33, 145);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #a3d2ca;
 }
