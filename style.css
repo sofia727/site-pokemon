@@ -44,6 +44,14 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
+.container{
+    background-color: rgb(144, 218, 193);
+    border-radius: 10px;
+    border-width: 100px;
+    border-color: rgb(36, 39, 201);
+
+}
+
 nav ul li a:hover {
-    color: #a3d2ca;
+    color: #a5c2bd;
 }
