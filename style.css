@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
 }
 nav {
+    font-size: 14px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -20,11 +21,7 @@ nav {
     align-items: center;
     padding: 16px 32px;
     z-index: 1000;
-    transition: background 0.3s ease, box-shadow 0.3s ease;
-}
-
-img{
-    width: 100px;
+    height: 100px;
 }
 
 nav ul {
@@ -33,12 +30,16 @@ nav ul {
     gap: 32px;
 }
 
+nav .logo img{
+    width: 120px;
+    display: flexbox;
+}
+
 nav ul li a {
     color: antiquewhite;
     text-decoration: none;
     font-weight: 500;
     transition: border-color 0.2s ease;
-    font-size: 14px;
     background-color: transparent;
     border-radius: 50px;
     border: 2px solid transparent;
@@ -46,8 +47,15 @@ nav ul li a {
     padding-left: 14px;
     padding-right: 14px;
 }
-
+nav.scrolled {
+    background: #10244c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
 
 nav ul li a:hover {
     border-color: antiquewhite;
+}
+
+section{
+    color: black;
 }
