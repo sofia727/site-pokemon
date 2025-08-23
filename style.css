@@ -9,6 +9,7 @@ body {
     color: #333;
     line-height: 1.6;
     padding-top: 90px;
+    background-color: rgb(210, 245, 255);
 }
 
 nav {
@@ -16,7 +17,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #19c962 ;
+    background-color: #00c24a ;
     display: flex;
     justify-content: space-around;
     align-items: center;
