@@ -98,25 +98,26 @@ nav ul li a:hover {
 
 .jump a{
     text-decoration: none;
-    color: #2d2e30;
+    color: rgb(0, 18, 119);
     padding: 20px;
     margin-bottom: 20px;
     transition: color 0.2s ease;
 }
 
 .jump a:hover {
-    color: rgb(219, 235, 0);
+    color: rgb(26, 26, 26);
 }
 
 #alola{
-    margin-top: 30px;
+    margin-top: 70px;
     text-align: left;
-    color: rgb(255, 255, 255);
     border-radius: 5px;
-    background-image: url(../imgs/mapa-alola.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     padding-left: 10px;
+}
+
+#alola h1, #titulo{
+    color: black;
+    letter-spacing: 0;
 }
 
 
@@ -139,7 +140,7 @@ box-sizing: border-box;
 
 .pokemon img{
    width: 100px;
-   margin: 20px;
+   margin: 30px;
    object-fit: cover;
    display: block;
 }
