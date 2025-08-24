@@ -9,7 +9,7 @@ body {
     color: #333;
     line-height: 1.6;
     padding-top: 90px;
-    background-color: rgb(210, 245, 255);
+    background-color: rgb(148, 148, 148);
 }
 
 html {
@@ -21,7 +21,9 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #00c24a ;
+    background-image: url(../imgs/moonnsun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -66,12 +68,17 @@ nav ul li a:hover {
 }
 
  .container{
-    margin: 90px;
+    margin: 120px;
+    margin-top: 25px;
     padding: 40px;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     flex-direction: column;
     
+}
+
+.container p{
+    font-size: 18px;
 }
 
 #titulo{
@@ -98,7 +105,7 @@ nav ul li a:hover {
 
 .jump a{
     text-decoration: none;
-    color: rgb(0, 18, 119);
+    color: rgb(73, 96, 223);
     padding: 20px;
     margin-bottom: 20px;
     transition: color 0.2s ease;
@@ -108,24 +115,32 @@ nav ul li a:hover {
     color: rgb(26, 26, 26);
 }
 
-#alola{
+#alola, #melemele{
     margin-top: 70px;
     margin-bottom: 30px;
     text-align: left;
-    border-radius: 5px;
-    padding-left: 10px;
 }
 
-#alola h1, #titulo{
+
+h1, #titulo{
     color: black;
     letter-spacing: 0;
 }
 
 
-.lista-pokemon{
+.lista-alola{
     list-style: none;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 2px;
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;justify-content: center;
+}
+
+.lista-melemele{
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 2px;
     text-align: center;
     display: flex;
     box-sizing: border-box;
@@ -139,6 +154,7 @@ width: 160px;
 box-sizing: border-box;
 display: block;
 align-items: center;
+
 }
 
 .pokemon a{
@@ -152,14 +168,27 @@ align-items: center;
 
 .pokemon img{
    height: 80px;
+}
 
+
+.lista-melemele .pokemon img{
+   height: 130px;
 }
 
 #numero{
     color: #8b8b8b;
+    font-size: 13px;
+}
+
+.nome-pokemon{
+    font-size: 15px;
 }
 
 .itype.grama{
+    color: #59f194;
+}
+
+.itype.inseto{
     color: #59f194;
 }
 
@@ -183,12 +212,12 @@ align-items: center;
     color: #5a4d3b;
 }
 
-.itype.fada{
+.itype.veneno{
     color: #3a003f;
 }
 
 .itype.dragao{
-    color: #000000;
+    color: #2b0606;
 }
 
 .itype.fogo{
@@ -213,4 +242,19 @@ align-items: center;
 
 .itype.terrestre{
     color: #6d420a;
+}
+
+.itype.pedra{
+    color: #3d2f1c;
+}
+.itype.agua{
+    color: #749fcf;
+}
+
+.itype.voador{
+    color: #62b5c4;
+}
+
+.itype.lutador{
+    color: #91040b;
 }
