@@ -68,7 +68,7 @@ nav ul li a:hover {
 }
 
  .container{
-    margin: 60px;
+    margin: 50px;
     margin-top: 25px;
     padding: 40px;
     background-color: rgb(255, 255, 255);
@@ -134,7 +134,8 @@ h1, #titulo{
     gap: 2px;
     text-align: center;
     display: flex;
-    box-sizing: border-box;justify-content: center;
+    box-sizing: border-box;
+    justify-content: center;
 }
 
 .lista-melemele{
@@ -150,7 +151,7 @@ h1, #titulo{
 
 .pokemon{
 margin: 10px;
-width: 160px;
+width: 120px;
 box-sizing: border-box;
 display: block;
 align-items: center;
