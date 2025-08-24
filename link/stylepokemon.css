@@ -4,8 +4,13 @@
     box-sizing: border-box;  
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
-    font-family: "Nata Sans", sans-serif;  
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+    font-style: normal;
     color: #333;
     line-height: 1.6;
     padding-top: 90px;
@@ -48,7 +53,7 @@ nav ul {
 
 
 nav ul li a {
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
     transition: border-color 0.2s ease;
@@ -61,10 +66,8 @@ nav ul li a {
 }
 
 
-
-
 nav ul li a:hover {
-    border-color: antiquewhite;
+    border-color: rgb(255, 255, 255);
 }
 
  .container{
@@ -85,6 +88,7 @@ nav ul li a:hover {
     font-size: 40px;
     text-align: center;
     padding: 20px;
+    padding-top: 0%;
 }
 
 .texto-pokedex{
@@ -125,27 +129,28 @@ nav ul li a:hover {
 h1, #titulo{
     color: black;
     letter-spacing: 0;
+    
 }
 
 
 .lista-alola{
     list-style: none;
     flex-wrap: wrap;
-    gap: 2px;
+    gap: 7px;
     text-align: center;
     display: flex;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content: start;
 }
 
 .lista-melemele{
     list-style: none;
     flex-wrap: wrap;
-    gap: 2px;
+    gap: 7px;
     text-align: center;
     display: flex;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content: start;
     
 }
 
