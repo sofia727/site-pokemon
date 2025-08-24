@@ -167,15 +167,12 @@ align-items: center;
 }
 
 .pokemon img{
-   height: 80px;
+   height: 128px;
 }
 
-.lista-akala .pokemon img{
-    height: 130px;
-}
+.lista-alola .pokemon img{
+    height: 80px;
 
-.lista-melemele .pokemon img{
-   height: 130px;
 }
 
 #numero{
