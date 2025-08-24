@@ -104,7 +104,6 @@ nav ul li a:hover {
     transition: color 0.2s ease;
 }
 
-
 .jump a:hover {
     color: rgb(219, 235, 0);
 }
@@ -117,4 +116,30 @@ nav ul li a:hover {
     background-image: url(../imgs/mapa-alola.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-left: 10px;
+}
+
+
+.lista-pokemon{
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+     align-items: stretch;
+  justify-content: flex-start;
+}
+
+.pokemon{
+margin: 20px;
+box-sizing: border-box;
+}
+
+.pokemon img{
+   width: 100px;
+   margin: 20px;
+   object-fit: cover;
+   display: block;
 }
