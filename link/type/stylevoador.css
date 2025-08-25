@@ -14,7 +14,7 @@ body {
     color: #333;
     line-height: 1.6;
     padding-top: 90px;
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(255, 255, 255);
 }
 
 html {
@@ -27,7 +27,7 @@ nav {
     top: 0;
     height: 80px;
     width: 100%;
-    background-image: url(../imgs/moonnsun.jpg);
+    background-image: url(../../imgs/moonnsun.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -69,6 +69,7 @@ nav ul li a {
 nav ul li a:hover {
     border-color: rgb(255, 255, 255);
 }
+
 
  .container{
     margin: 50px;
@@ -123,142 +124,4 @@ h1, #titulo{
 
 .jump a:hover {
     color: rgb(26, 26, 26);
-}
-
-#alola, #melemele, #akala, #ulaula, #poni{
-    margin-top: 70px;
-    margin-bottom: 30px;
-    text-align: left;
-    background-color: #e9e9e9;
-    border-radius: 5px;
-    padding-left: 5px;
-}
-
-#alola p{
-    font-size: 15px;
-}
-
-
-
-.lista-alola, .lista-melemele, .lista-akala, .lista-ulaula, .lista-poni{
-    list-style: none;
-    flex-wrap: wrap;
-    gap: 7px;
-    text-align: center;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: start;
-}
-
-
-
-.pokemon{
-margin: 10px;
-width: 120px;
-box-sizing: border-box;
-display: block;
-align-items: center;
-
-}
-
-.pokemon a{
-    font-size: 12px;
-    text-decoration: none;
-}
-
-.pokemon a:hover{
-    text-decoration: underline;
-}
-
-.pokemon img{
-   height: 128px;
-}
-
-.lista-alola .pokemon img{
-    height: 80px;
-
-}
-
-#numero{
-    color: #8b8b8b;
-    font-size: 13px;
-}
-
-.nome-pokemon{
-    font-size: 14px;
-}
-
-.itype.grama{
-    color: #59f194;
-}
-
-.itype.inseto{
-    color: #59f194;
-}
-
-.itype.normal{
-    color: #6b6d64;
-}
-
-.itype.eletrico{
-    color: #e6c81f;
-}
-
-.itype.psiquico{
-    color: #f10085;
-}
-
-.itype.fada{
-    color: #ec7eda;
-}
-
-.itype.sombrio{
-    color: #5a4d3b;
-}
-
-.itype.veneno{
-    color: #3a003f;
-}
-
-.itype.dragao{
-    color: #2b0606;
-}
-
-.itype.fogo{
-    color: #ff0808;
-}
-
-.itype.gelo{
-    color: #64c1ff;
-}
-
-.itype.fantasma{
-    color: #271136;
-}
-
-.itype.noturno{
-    color: #6e196e;
-}
-
-.itype.metalico{
-    color: #6a6599;
-}
-
-.itype.terrestre{
-    color: #6d420a;
-}
-
-.itype.pedra{
-    color: #3d2f1c;
-}
-.itype.agua{
-    color: #749fcf;
-}
-
-.itype.voador{
-    color: #62b5c4;
-}
-
-.itype.lutador{
-    color: #91040b;
 }
