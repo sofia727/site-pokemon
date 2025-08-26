@@ -14,7 +14,7 @@ body {
     color: #333;
     line-height: 1.6;
     padding-top: 90px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(61, 61, 61);
 }
 
 html {
@@ -72,37 +72,81 @@ nav ul li a:hover {
 
 
  .container{
-    margin: 50px;
+    margin: 65px;
     margin-top: 25px;
-    padding: 40px;
+    padding: 30px;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     flex-direction: column;
     
 }
 
-.container p{
-    font-size: 18px;
-}
 
 #titulo{
     font-size: 40px;
     text-align: center;
     padding: 20px;
     padding-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h1, #titulo{
-    color: black;
-    letter-spacing: 0;
-    
+#titulo .tipo{
+    color: #a8a8a8;
+    margin-left: 8px;
 }
+
 
 .texto-pokedex{
     background-color: #f1f1f1;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
+    font-size: 16px;
+    color: #535353;
+}
+
+
+table{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    border-spacing: 50px 0;
+
+}
+
+table thead{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#container-pro-cons {
+    margin: 40px 0;
+}
+
+#container-pro-cons h1{
+font-size: 35px;
+margin-top: 20px;
+}
+
+#container-pro-cons i{
+color: #979797;
+font-weight: lighter;
+}
+
+#container-pro-cons a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 115px;
+    font-weight: bold;
+}
+
+
+.t1{
+    padding: 5px;
+    margin-top: 5px;
 }
 
 
@@ -111,17 +155,158 @@ h1, #titulo{
     background-color: #e7f7ff;
     border-radius: 5px;
     padding: 20px;
-    justify-content: space-around;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px ;
+    
 }
 
 .jump a{
     text-decoration: none;
     color: rgb(73, 96, 223);
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 10px;
     transition: color 0.2s ease;
+}
+
+.jump b{
+    margin: 20px;
 }
 
 .jump a:hover {
     color: rgb(26, 26, 26);
+}
+
+
+.itype.grama{
+    color: #59f194;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(189, 255, 209) ;
+}
+
+.itype.inseto{
+    color: #59f194;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(189, 255, 209) ;
+}
+
+.itype.normal{
+    color: #6b6d64;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(211, 202, 198) ;
+}
+
+.itype.eletrico{
+    color: #e6c81f;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(255, 250, 179) ;
+}
+
+.itype.psiquico{
+    color: #f10085;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(240, 156, 208) ;
+}
+
+.itype.fada{
+    color: #ec7eda;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(255, 217, 249) ;
+}
+
+.itype.sombrio{
+    color: #5a4d3b;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(179, 164, 153) ;
+}
+
+.itype.veneno{
+    color: #3a003f;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(182, 145, 224) ;
+}
+
+.itype.dragao{
+    color: #2b0606;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(117, 58, 58) ;
+}
+
+.itype.fogo{
+    color: #ff0808;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(250, 189, 148) ;
+}
+
+.itype.gelo{
+    color: #64c1ff;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(189, 212, 255) ;
+}
+
+.itype.fantasma{
+    color: #271136;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(182, 166, 207) ;
+}
+
+.itype.noturno{
+    color: #6e196e;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(244, 189, 255) ;
+}
+
+.itype.metalico{
+    color: #6a6599;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(225, 202, 255) ;
+}
+
+.itype.terrestre{
+    color: #6d420a;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(197, 179, 156) ;
+}
+
+.itype.pedra{
+    color: #3d2f1c;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(207, 184, 148) ;
+}
+.itype.agua{
+    color: #749fcf;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(202, 246, 252) ;
+}
+
+.itype.voador{
+    color: #62b5c4;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(201, 242, 255) ;
+}
+
+.itype.lutador{
+    color: #91040b;
+    border-radius: 115px ;
+    padding: 7px;
+    background-color:rgb(255, 149, 154) ;
 }
