@@ -96,6 +96,9 @@ nav ul li a:hover {
     color: #a8a8a8;
     margin-left: 8px;
 }
+#titulo .itype.psiquico, #titulo .itype.agua, #titulo .itype.dragao, #titulo .itype.eletrico, #titulo .itype.fada, #titulo .itype.fantasma, #titulo .itype.fogo, #titulo .itype.gelo, #titulo .itype.grama, #titulo .itype.inseto, #titulo .itype.lutador, #titulo .itype.metalico, #titulo .itype.normal,#titulo .itype.noturno, #titulo .itype.pedra, #titulo .itype.psiquico, #titulo .itype.sombrio, #titulo .itype.terrestre, #titulo .itype.veneno, #titulo .itype.voador{
+  background: none;
+}
 
 
 
@@ -139,8 +142,8 @@ font-weight: lighter;
 #container-pro-cons a{
     text-decoration: none;
     margin: 10px;
-    padding: 7px;
-    border-radius: 115px;
+    padding: 10px;
+    border-radius: 15px;
     font-weight: bold;
 }
 
@@ -154,13 +157,12 @@ font-weight: lighter;
 .jump{
     text-align: center;
     background-color: #e7f7ff;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 20px;
     justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 15px ;
-    
+    font-weight: bold;
 }
 
 .jump a{
@@ -182,132 +184,132 @@ font-weight: lighter;
 
 .itype.grama{
     color: #59f194;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(189, 255, 209) ;
 }
 
 .itype.inseto{
     color: #59f194;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(189, 255, 209) ;
 }
 
 .itype.normal{
     color: #6b6d64;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(211, 202, 198) ;
 }
 
 .itype.eletrico{
     color: #e6c81f;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(255, 250, 179) ;
 }
 
 .itype.psiquico{
     color: #f10085;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(240, 156, 208) ;
 }
 
 .itype.fada{
     color: #ec7eda;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(255, 217, 249) ;
 }
 
 .itype.sombrio{
     color: #5a4d3b;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(179, 164, 153) ;
 }
 
 .itype.veneno{
     color: #3a003f;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(182, 145, 224) ;
 }
 
 .itype.dragao{
     color: #2b0606;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(117, 58, 58) ;
 }
 
 .itype.fogo{
     color: #ff0808;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(250, 189, 148) ;
 }
 
 .itype.gelo{
     color: #64c1ff;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(189, 212, 255) ;
 }
 
 .itype.fantasma{
     color: #271136;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(182, 166, 207) ;
 }
 
 .itype.noturno{
     color: #6e196e;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(244, 189, 255) ;
 }
 
 .itype.metalico{
     color: #6a6599;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(225, 202, 255) ;
 }
 
 .itype.terrestre{
     color: #6d420a;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(197, 179, 156) ;
 }
 
 .itype.pedra{
     color: #3d2f1c;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(207, 184, 148) ;
 }
 .itype.agua{
     color: #749fcf;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(202, 246, 252) ;
 }
 
 .itype.voador{
     color: #62b5c4;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(201, 242, 255) ;
 }
 
 .itype.lutador{
     color: #91040b;
-    border-radius: 115px ;
+    border-radius: 15px ;
     padding: 7px;
     background-color:rgb(255, 149, 154) ;
 }
